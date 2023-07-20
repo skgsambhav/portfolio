@@ -245,7 +245,8 @@
       const subject = "Contact Inquiry from " + name;
       const body = "Hi, Here's my message:\n\n" + message;
 
-      const mailtoLink = "skgsambhav@gmail.com" + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      const mailtoLink = "mailto:skgsambhav@gmail.com" + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
       window.location.href = mailtoLink;
     }
   </script>
